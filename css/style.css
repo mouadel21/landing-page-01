@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(22, 88%, 66%);
+    display: flex;
+}
+.part1 {
+    height: 100%;
+    width: 26%;
+    /* background: rebeccapurple; */
+}
+.part2 {
+    height: 100%;
+    width: 67%;
+    background: rgb(38, 45, 178); 
+    background-image: url('../img/mouad.png');
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    
+}
+.part3 {
+    height: 100%;
+    width: 7%;
+    /* background: rgb(29, 170, 29); */
+}
